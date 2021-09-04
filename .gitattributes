@@ -1,5 +1,5 @@
-;Src: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+# Src: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
 
-*.sql linguist-detectable
-*.sql linguist-language=SQL
-*.sql linguist-documentation=false
+query/** linguist-detectable
+query/** linguist-language=SQL
+query/** linguist-documentation=false
