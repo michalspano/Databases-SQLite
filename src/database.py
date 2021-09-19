@@ -24,6 +24,8 @@ def main():
     with open(query_path) as query:
         temp = query.readlines()[1:][0]
 
+    # ONLY ACCEPTING SINGLE LINE SQL QUERIES
+
     # Connect to SQLite
     con = sqlite3.connect(argv[1])
 
