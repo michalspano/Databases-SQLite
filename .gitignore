@@ -1,3 +1,6 @@
 # Vendore test units
 Practise-Lab/
 Movies/
+
+# Vendore binaries
+*.DS_Store
