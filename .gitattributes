@@ -1,10 +1,4 @@
-# Change GitHub repo lang tag
-* linguist-language=SQL
-
 # Detect SQL
 query/** linguist-detectable
 query/** linguist-language=SQL
 query/** linguist-documentation=false
-
-# Detect src/
-src/** linguist-documentation=false
