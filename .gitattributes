@@ -5,3 +5,6 @@
 query/** linguist-detectable
 query/** linguist-language=SQL
 query/** linguist-documentation=false
+
+# Detect src/
+src/** linguist-documentation=false
